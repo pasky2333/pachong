@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-from proxypool.scheduler import Schedualer
+from proxypool.scheduler import Scheduler
 import sys
 import io
 
@@ -9,7 +9,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 def main():
     try:
-        s = Schedualer()
+        s = Scheduler()
         s.run()
     except:
         main()

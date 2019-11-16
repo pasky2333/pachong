@@ -33,7 +33,7 @@ def get_page(url, options={}):
 def get_random_page(page_count):
     """
     生成随机 page_count 个页码
-    :param page_count: 
+    :param page_count:
     :return:
     """
     for _ in range(page_count):
