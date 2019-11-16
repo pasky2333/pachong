@@ -6,6 +6,7 @@ from proxypool.utils import get_page, get_random_page
 from pyquery import PyQuery as pq
 from proxypool.settings import PAGE_COUNT
 
+
 class ProxyMetaClass(type):
 
     def __new__(cls, name, bases, attrs):
