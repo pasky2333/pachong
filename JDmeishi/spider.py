@@ -83,7 +83,7 @@ def get_products(page, download=False):
     wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#J_goodsList ul li')))
     html = browser.page_source
     doc = pq(html)
-    items = doc('#J_goodsList ul li').items()
+    items = doc('#J_goodsList ul li.gl-item').items()
     count = 0
     for index, item in enumerate(items):
         img = item.find('.p-img img').attr('src')

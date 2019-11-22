@@ -28,7 +28,7 @@ TESTER_CYCLE = 20
 GETTER_CYCLE = 300
 
 # 测试api，建议抓哪个网站测哪个
-TEST_API = 'https://www.taobao.com'
+TEST_API = 'https://weixin.sogou.com/weixin'
 
 # API配置
 API_HOST = '127.0.0.1'

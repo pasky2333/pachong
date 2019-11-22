@@ -3,6 +3,6 @@
 
 MONGO_URL = 'localhost'
 MONGO_DB = 'JD'
-MONGO_TABLE = 'product'
+MONGO_TABLE = 'qt'
 
-KEYWORD = '美食'
+KEYWORD = '拳击手套'

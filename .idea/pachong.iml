@@ -9,6 +9,8 @@
       <sourceFolder url="file://$MODULE_DIR$/ProxyPool" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ProxyPool-master" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BullshitGenerator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/awesome" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/awesome/app" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
