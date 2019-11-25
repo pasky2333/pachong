@@ -12,7 +12,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from pyquery import PyQuery as pq
 from pymongo import MongoClient
-from config import *
+from .config import *
 
 
 client = MongoClient(MONGO_URL)

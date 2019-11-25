@@ -32,7 +32,7 @@ def first_page():
         time.sleep(2)
         get_product()
     except TimeoutException:
-        return first_page()
+        first_page()
 
 
 def next_page():
